@@ -30,6 +30,8 @@ In this repository you will find:
 In the Database, dates are classified as the data type VARCHAR. Although there is a data type date I was still able to answer the queries presented...
 
 * In order to find dates within a specific month(ex. December) we can use the clarification:
+   
    WHERE hire_date LIKE '12/%'
 * Meanwhile to find dates on within a specific year(ex. 1999) we use the clarification:
+   
    WHERE hire_date LIKE '%/1999'
